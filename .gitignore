@@ -1,0 +1,34 @@
+Para ativar 
+
+Crie um banco no mysql com o nome ticursosapi
+depois no retorne ide
+apaguem os arquivos da pasta __pycache__
+execute o terminal
+importe uma classe/tabela por vez no banco 
+
+na de aluno.py digite no terminal
+python
+from aluno import db
+db.create_all()
+depois clique em ctrl+c
+python ./aluno.py 
+
+no terminal da classe/tabela cruso 
+python
+from curso import db
+db.create_all()
+python ./curso.py 
+
+no terminal da classe/tabela empresa
+python
+from empresa import db
+db.create_all()
+python ./empresa.py 
+
+no terminal da classe/tabela plano
+python
+from plano import db
+db.create_all()
+python ./plano.py 
+
+carregem os insert do banco de dados e execute. depois só testar no postman
